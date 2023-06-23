@@ -4,9 +4,12 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-   "start":"nodemon app.js"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
 }
